@@ -1,0 +1,3 @@
+{
+  "*.{js,cjs,mjs,ts,cts,mts}": "eslint --fix --ignore-pattern .gitignore --max-warnings=0"
+}
