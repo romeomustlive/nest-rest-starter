@@ -11,7 +11,11 @@ services:
     ports:
       - "5432:5432"
     volumes:
+<<<<<<< HEAD
       - ./pgdata:/var/lib/postgresql/data/pgdata
+=======
+      - pgdata:/var/lib/postgresql/data/pgdata
+>>>>>>> 3ed39eb (initial commit)
 
 volumes:
   pgdata:
